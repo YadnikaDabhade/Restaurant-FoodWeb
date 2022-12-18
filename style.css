@@ -173,19 +173,19 @@ header .icons #menu {
 
 
 .Footer {
-	background-color: #1A120B;
+	background-color: white;
 	height: 100vh;
 }
 
 .info {
 
-	padding: 100px 50px 50px 0px;
-	height: 800px;
+	padding: 40px 0px 0px 0px;
+	height: 690px;
 }
 
 .About {
 	height: 230px;
-	padding-left: 150px;
+	padding-left: 260px;
 }
 
 #about {
@@ -196,43 +196,46 @@ header .icons #menu {
 	display: inline-block;
 	border-radius: 10px;
 	padding-bottom: 80px;
-
-
 }
 
 #img {
-	width: 180px;
-	height: 180px;
+	width: 150px;
+    height: 150px;
 	border-radius: 10px;
 }
 
 .Feedback {
-	height: 400px;
-	margin-left: 190px;
-	margin-top: 60px;
+	height: 335px;
+    margin-left: 49px;
+    margin-top: 3px;
+    padding-left: 280px;
+    background-color: #0b2b35;
+	border-radius: 8px;
+	padding-top: 24px;
+	width: 1430px;
 }
 
 h10 {
-	color: rgb(226, 74, 13);
+	color: white;
 	font-size: 30px;
 	font-family: 'Rubik Gemstones', cursive;
+	
 }
 
 h9 {
-	color: rgb(22, 195, 22);
+	color: #8cd3ff;
 	font-size: 40px;
 	font-family: 'Rubik Gemstones', cursive;
 }
 
 h1 {
-	color: yellow;
-
+	color: grey;
 	font-size: 25px;
 }
 
 p {
 	color: white;
-	font-size: 15px;
+	font-size: 13px;
 	line-height: 30px;
 	font-family: 'Martian Mono', monospace;
 }
@@ -262,19 +265,89 @@ a {
 	height: 30px;
 	background-color: #432C7A;
 	color: white;
-	font-family: 'Rubik Gemstones', cursive;
-
+	
+}
+#submit:hover{
+	background-color: black;
+	
 }
 
 .bottom-container {
 	width: 960px;
-	background-color: #D5CEA3;
-	height: 100px;
+	background-color: #e6e7e7;
+	height: 90px;
 	text-align: center;
 	line-height: 30px;
 	margin-top: 0;
 	padding-top: 15px;
 	border-radius: 8px;
 }
+#blink {
+	color: #fff;
+	-webkit-animation: glow 1s ease-in-out infinite alternate;
+	-moz-animation: glow 1s ease-in-out infinite alternate;
+	animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+	from {
+	  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px blue, 0 0 50px blue, 0 0 60px blue, 0 0 70px blue;
+	}
+	to {
+	  text-shadow: 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000, 0 0 80px #000;
+	}
+  }
+
+.asec{
+	color: black;
+	font-size: 15px;
+	line-height: 30px;
+}
+.coptr{
+	font-size: 12px;
+
+}
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+	height: 38px;
+    width: 44px;
+    padding-top: 8px;
+    font-size: 18px;
+	margin: 0px 10px;
+	border-radius: 20%;
+  }
+  
+  .fa-twitter {
+	background: #55ACEE;
+	color: white;
+	height: 38px;
+    width: 44px;
+    padding-top: 8px;
+    font-size: 18px;
+	margin: 0px 10px;
+	border-radius: 20%;
+  }
+  .fa-linkedin {
+	background: #007bb5;
+	color: white;
+	height: 38px;
+    width: 44px;
+    padding-top: 8px;
+    font-size: 18px;
+	margin: 0px 10px;
+	border-radius: 20%;
+  }
+  .fa-youtube {
+	background: red;
+	color: white;
+	height: 38px;
+    width: 44px;
+    padding-top: 8px;
+    font-size: 18px;
+	margin: 0px 10px;
+	border-radius: 20%;
+  }
+  
 
 /*  ============    #   Css For Footer Ends      ============== */
