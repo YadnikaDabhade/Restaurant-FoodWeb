@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
-:root
-{
+:root {
 	--black: #333;
 	--light-color: #cdaa7c;
-	--box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+	--box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
 }
-*
-{
+
+* {
 	font-family: 'Roboto', sans-serif;
 	margin: 0;
 	padding: 0;
@@ -18,15 +17,15 @@
 	text-transform: capitalize;
 	transition: all .2s linear;
 }
-html
-{
+
+html {
 	font-size: 62.5%;
 	overflow-x: hidden;
 	scroll-behavior: smooth;
 }
+
 /*navbar style start*/
-header
-{
+header {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -39,25 +38,25 @@ header
 	box-shadow: var(--box-shadow);
 	z-index: 10000;
 }
-header .logo img 
-{
+
+header .logo img {
 	height: auto;
 }
-header .navbar a 
-{
+
+header .navbar a {
 	font-size: 1.7rem;
 	padding: .5rem 1.5rem;
 	color: var(--light-color);
 	border: .1rem solid transparent;
 }
+
 header .navbar a.active,
-header .navbar a:hover
-{
+header .navbar a:hover {
 	color: #fff;
 	border: .1rem solid rgba(205, 170, 124, 0.2);
-} 
-header .icons i 
-{
+}
+
+header .icons i {
 	cursor: pointer;
 	margin-left: .5rem;
 	height: 4.5rem;
@@ -68,64 +67,63 @@ header .icons i
 	font-size: 1.7rem;
 	color: #fff;
 }
-header .icons i:hover
-{
+
+header .icons i:hover {
 	color: #fff;
 	background: var(--light-color);
 	transform: rotate(360deg);
 }
-header .icons #menu
-{
+
+header .icons #menu {
 	display: none;
 }
 
 /*navbar style end here*/
 
 /*slider style start*/
-.home .home-slider .slide
-{
+.home .home-slider .slide {
 	display: flex;
 	align-items: center;
 	height: 100vh;
 	justify-content: flex-start;
 }
-.home .home-slider .slide1 
-{
+
+.home .home-slider .slide1 {
 	background: url(slideshow-9.jpg);
 }
-.home .home-slider .slide2
-{
+
+.home .home-slider .slide2 {
 	background: url(slideshow-11.jpg);
 }
-.home .home-slider .slide3
-{
+
+.home .home-slider .slide3 {
 	background: url(slideshow-8.jpg);
 }
+
 .home .home-slider .slide1,
 .home .home-slider .slide2,
-.home .home-slider .slide3
-{
+.home .home-slider .slide3 {
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-.home .home-slider .slide .content
-{
+
+.home .home-slider .slide .content {
 	text-align: center;
 	padding-left: 9rem;
 }
-.home .home-slider .slide .content h3
-{
+
+.home .home-slider .slide .content h3 {
 	color: var(--light-color);
 	font-size: 3rem;
 	font-weight: 300;
 }
-.home .home-slider .slide .content h1
-{
+
+.home .home-slider .slide .content h1 {
 	color: #fff;
 	font-size: 8rem;
 }
-.home .home-slider .slide .content p 
-{
+
+.home .home-slider .slide .content p {
 	color: #e6e7e7;
 	font-size: 1.8rem;
 	letter-spacing: 1px;
@@ -133,13 +131,13 @@ header .icons #menu
 	line-height: 1.5;
 	font-weight: 200;
 }
-.btn
-{
+
+.btn {
 	margin-top: 1rem;
 	display: inline-block;
 	font-size: 1.7rem;
 	color: #fff;
-	border: .1rem solid rgba(205,170,124,0.2);
+	border: .1rem solid rgba(205, 170, 124, 0.2);
 	background: transparent;
 	cursor: pointer;
 	padding: .8rem 3rem;
@@ -147,8 +145,8 @@ header .icons #menu
 	overflow: hidden;
 	z-index: 1;
 }
-.btn:before
-{
+
+.btn:before {
 	content: '';
 	width: 100%;
 	height: 100%;
@@ -159,14 +157,124 @@ header .icons #menu
 	left: -100%;
 	transition: .5s;
 }
-.btn:hover.btn:before
-{
+
+.btn:hover.btn:before {
 	left: 0;
 }
-.swiper-pagination-bullet
-{
-	background: var(--light-color)!important;
-	width: 15px!important;
-	height: 15px!important;
-	border-radius: 0!important;
+
+.swiper-pagination-bullet {
+	background: var(--light-color) !important;
+	width: 15px !important;
+	height: 15px !important;
+	border-radius: 0 !important;
 }
+
+/*  ============    #   Css For Footer Starts      ============== */
+
+
+.Footer {
+	background-color: #1A120B;
+	height: 100vh;
+}
+
+.info {
+
+	padding: 100px 50px 50px 0px;
+	height: 800px;
+}
+
+.About {
+	height: 230px;
+	padding-left: 150px;
+}
+
+#about {
+	width: 180px;
+	height: 180px;
+	margin: 20px 40px;
+	background-color: white;
+	display: inline-block;
+	border-radius: 10px;
+	padding-bottom: 80px;
+
+
+}
+
+#img {
+	width: 180px;
+	height: 180px;
+	border-radius: 10px;
+}
+
+.Feedback {
+	height: 400px;
+	margin-left: 190px;
+	margin-top: 60px;
+}
+
+h10 {
+	color: rgb(226, 74, 13);
+	font-size: 30px;
+	font-family: 'Rubik Gemstones', cursive;
+}
+
+h9 {
+	color: rgb(22, 195, 22);
+	font-size: 40px;
+	font-family: 'Rubik Gemstones', cursive;
+}
+
+h1 {
+	color: yellow;
+
+	font-size: 25px;
+}
+
+p {
+	color: white;
+	font-size: 15px;
+	line-height: 30px;
+	font-family: 'Martian Mono', monospace;
+}
+
+.first-col {
+	width: 480px;
+}
+
+a {
+	text-decoration: solid;
+	color: #1A120B;
+	font-family: none;
+	font-size: 25px;
+}
+
+.Second-col {
+	width: 480px;
+	padding-left: 40px;
+}
+
+#email {
+	width: 300px;
+	height: 30px;
+}
+
+#submit {
+	height: 30px;
+	background-color: #432C7A;
+	color: white;
+	font-family: 'Rubik Gemstones', cursive;
+
+}
+
+.bottom-container {
+	width: 960px;
+	background-color: #D5CEA3;
+	height: 100px;
+	text-align: center;
+	line-height: 30px;
+	margin-top: 0;
+	padding-top: 15px;
+	border-radius: 8px;
+}
+
+/*  ============    #   Css For Footer Ends      ============== */
