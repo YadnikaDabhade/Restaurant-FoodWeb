@@ -179,13 +179,13 @@ header .icons #menu {
 
 .info {
 
-	padding: 40px 0px 0px 0px;
+	padding: 80px 0px 0px 0px;
 	height: 690px;
 }
 
 .About {
 	height: 230px;
-	padding-left: 260px;
+	padding-left: 210px;
 }
 
 #about {
@@ -208,7 +208,7 @@ header .icons #menu {
 	height: 335px;
     margin-left: 49px;
     margin-top: 3px;
-    padding-left: 280px;
+    padding-left: 250px;
     background-color: #0b2b35;
 	border-radius: 8px;
 	padding-top: 24px;
@@ -273,7 +273,7 @@ a {
 }
 
 .bottom-container {
-	width: 960px;
+	width: 830px;
 	background-color: #e6e7e7;
 	height: 90px;
 	text-align: center;
