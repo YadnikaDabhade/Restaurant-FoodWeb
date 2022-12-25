@@ -200,16 +200,16 @@ header .icons #menu {
 
 #img {
 	width: 150px;
-    height: 150px;
+	height: 150px;
 	border-radius: 10px;
 }
 
 .Feedback {
 	height: 335px;
-    margin-left: 49px;
-    margin-top: 3px;
-    padding-left: 250px;
-    background-color: #0b2b35;
+	margin-left: 49px;
+	margin-top: 3px;
+	padding-left: 250px;
+	background-color: #0b2b35;
 	border-radius: 8px;
 	padding-top: 24px;
 	width: 1430px;
@@ -219,7 +219,7 @@ h10 {
 	color: white;
 	font-size: 30px;
 	font-family: 'Rubik Gemstones', cursive;
-	
+
 }
 
 h9 {
@@ -265,11 +265,12 @@ a {
 	height: 30px;
 	background-color: #432C7A;
 	color: white;
-	
+
 }
-#submit:hover{
+
+#submit:hover {
 	background-color: black;
-	
+
 }
 
 .bottom-container {
@@ -282,72 +283,121 @@ a {
 	padding-top: 15px;
 	border-radius: 8px;
 }
+
 #blink {
 	color: #fff;
 	-webkit-animation: glow 1s ease-in-out infinite alternate;
 	-moz-animation: glow 1s ease-in-out infinite alternate;
 	animation: glow 1s ease-in-out infinite alternate;
-  }
-  
-  @-webkit-keyframes glow {
-	from {
-	  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px blue, 0 0 50px blue, 0 0 60px blue, 0 0 70px blue;
-	}
-	to {
-	  text-shadow: 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000, 0 0 80px #000;
-	}
-  }
+}
 
-.asec{
+@-webkit-keyframes glow {
+	from {
+		text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px blue, 0 0 50px blue, 0 0 60px blue, 0 0 70px blue;
+	}
+
+	to {
+		text-shadow: 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000, 0 0 80px #000;
+	}
+}
+
+.asec {
 	color: black;
 	font-size: 15px;
 	line-height: 30px;
 }
-.coptr{
+
+.coptr {
 	font-size: 12px;
 
 }
+
 .fa-facebook {
 	background: #3B5998;
 	color: white;
 	height: 38px;
-    width: 44px;
-    padding-top: 8px;
-    font-size: 18px;
+	width: 44px;
+	padding-top: 8px;
+	font-size: 18px;
 	margin: 0px 10px;
 	border-radius: 20%;
-  }
-  
-  .fa-twitter {
+}
+
+.fa-twitter {
 	background: #55ACEE;
 	color: white;
 	height: 38px;
-    width: 44px;
-    padding-top: 8px;
-    font-size: 18px;
+	width: 44px;
+	padding-top: 8px;
+	font-size: 18px;
 	margin: 0px 10px;
 	border-radius: 20%;
-  }
-  .fa-linkedin {
+}
+
+.fa-linkedin {
 	background: #007bb5;
 	color: white;
 	height: 38px;
-    width: 44px;
-    padding-top: 8px;
-    font-size: 18px;
+	width: 44px;
+	padding-top: 8px;
+	font-size: 18px;
 	margin: 0px 10px;
 	border-radius: 20%;
-  }
-  .fa-youtube {
+}
+
+.fa-youtube {
 	background: red;
 	color: white;
 	height: 38px;
-    width: 44px;
-    padding-top: 8px;
-    font-size: 18px;
+	width: 44px;
+	padding-top: 8px;
+	font-size: 18px;
 	margin: 0px 10px;
 	border-radius: 20%;
-  }
-  
+}
+
 
 /*  ============    #   Css For Footer Ends      ============== */
+
+
+/*  ============    #   Css For Menu Starts      ============== */
+
+#menu {
+	height: 100vh;
+	background-color: #E5E5CB;
+}
+
+#section {
+	padding: 40px 0;
+	text-align: center;
+	color: #1A120B;
+	font-size: 40px;
+
+}
+
+.row {
+	padding-left: 30px;
+}
+
+.col {
+	padding: 0px 60px;
+}
+
+.dish {
+	border-radius: 10px;
+	padding: 40px 5px 20px;
+	width: 223px;
+	border-style: solid;
+	background-color: #3C2A21;
+}
+
+.img {
+	height: 200px;
+}
+
+.name {
+	background-color: white;
+	text-align: center;
+}
+
+/*  ============    #   Css For Menu Ends      ============== */
