@@ -362,7 +362,7 @@ a {
 
 /*  ============    #   Css For Menu Starts      ============== */
 
-#menu {
+.menu {
 	height: 100vh;
 	background-color: #F1D3B3;
 
