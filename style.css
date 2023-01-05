@@ -360,13 +360,14 @@ a {
 /*  ============    #   Css For Menu Starts      ============== */
 
 .menu {
-	height: 100vh;
+	padding: 5px;
+	height: 500px;
 	background-color: #F1D3B3;
 
 }
 
 #section {
-	padding: 20px 0;
+	padding: 20px 40px;
 	text-align: center;
 	color: #1A120B;
 	font-size: 40px;
@@ -374,18 +375,17 @@ a {
 }
 
 .row {
-	padding-left: 20px;
-	padding-bottom: 10px;
+	padding-left: 25px;
 }
 
 .col {
-	padding: 0px 60px;
+	padding: 20px 60px;
 
 }
 
 .dish {
 	border-radius: 10px;
-	padding: 20px 3px 10px;
+	padding: 20px 3px 20px;
 	width: 210px;
 	border-style: solid;
 	background-color: white;
